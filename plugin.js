@@ -22,7 +22,6 @@ secondImage.setAttribute("src", randomImage2);
 
 if(randomNumber1 > randomNumber2){
     document.getElementsByTagName("h1")[0].innerHTML = "👏🏾 Player One Won";
-    document.querySelector("h1").classList.add("pinkish");
 } else if(randomNumber2 > randomNumber1){
     document.getElementsByTagName("h1")[0].innerHTML = "Player Two Won 👏🏾";
 } else if(randomNumber1 === randomNumber2){
